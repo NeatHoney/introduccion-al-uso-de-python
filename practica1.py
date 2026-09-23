@@ -3,7 +3,7 @@ def main():
     lista = ["Manzana", "Pera", "Melocoton"]
     lista2 = ["Kiwi", "Sandia", "Melon"]
     
-    lista.extends(lista2)
+    lista.extend(lista2)
     print(lista[-1])  # -1 Siempre te dice el último
     
     tupla = (3,5,7)
